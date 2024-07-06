@@ -1,0 +1,56 @@
+//base
+
+$bodyBackgroundColor: #d5e1ef;
+$qrScanBackground: #2c7dfa;
+$fontStyle: "Roboto", sans-serif;
+
+* {
+  font-family: $fontStyle;
+  box-sizing: border-box;
+}
+
+body {
+  height: 600px;
+  background: $bodyBackgroundColor;
+}
+
+.bodyContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    text-align: center;
+    height: 497px;
+    width: 320px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+
+    img {
+      height: 288px;
+      width: 288px;
+      border-radius: 10px;
+    }
+
+    h4 {
+      font-size: 22px;
+      padding: 0 20px;
+    }
+
+    p {
+      font-size: 14px;
+      padding: 0 20px;
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+}
+
+//layout
+
+//state
+
+//component
+
+//theme
