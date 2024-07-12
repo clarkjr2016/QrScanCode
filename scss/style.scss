@@ -2,7 +2,7 @@
 
 $bodyBackgroundColor: #d5e1ef;
 $qrScanBackground: #2c7dfa;
-$fontStyle: "Roboto", sans-serif;
+$fontStyle: "Outfit", sans-serif;
 
 * {
   font-family: $fontStyle;
@@ -12,21 +12,22 @@ $fontStyle: "Roboto", sans-serif;
 body {
   height: 100vh;
   background: $bodyBackgroundColor;
-}
-
-.bodyContainer {
-  height: 100%;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  .container {
+  .card {
     text-align: center;
     height: 497px;
     width: 320px;
     background: white;
     padding: 10px;
     border-radius: 10px;
+
+    .cardTextContent {
+      font-size: 15px;
+    }
 
     img {
       height: 288px;
@@ -36,12 +37,11 @@ body {
 
     h4 {
       font-size: 22px;
-      padding: 0 20px;
+      padding: 0 15px;
     }
 
     p {
-      font-size: 14px;
-      padding: 0 20px;
+      padding: 0 18px;
       color: rgba(0, 0, 0, 0.65);
     }
   }
